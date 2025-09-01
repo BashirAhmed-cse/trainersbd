@@ -80,9 +80,7 @@ const CoursesSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
               Courses & Certificate Programs
             </h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl">
-              Advance your career with our industry-recognized certification programs
-            </p>
+            
           </div>
           
           <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 font-semibold flex items-center gap-2 group">

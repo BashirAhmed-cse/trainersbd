@@ -21,7 +21,7 @@ const Header = () => {
     { name: 'Home', id: 'home', href: '/#home'},
     { name: 'Founders & BOD', id: 'founders-bod', href: '/#founders-bod' },
     { name: 'Members Directory', id: 'members-directory', href: '/#members-directory' },
-    { name: 'Find Your Trainers', id: 'find-trainer', href: '/#find-trainer' },
+    { name: 'Find Your Trainers', id: 'find-trainer', href: '/#members-directory' },
     { name: 'Resource Library', id: 'resource-library', href: '/#resource-library' }
   ];
 
@@ -116,14 +116,14 @@ const Header = () => {
             </Link>
             
             {/* Join Us Button */}
-            <Link href="/membership-application" passHref>
+            {/* <Link href="/membership-application" passHref>
               <Button 
                 className="relative overflow-hidden group bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 rounded-lg shadow-sm hover:shadow-md transition-all"
               >
                 <span className="relative z-10">Join Us</span>
                 <span className="absolute inset-0 bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </Button>
-            </Link>
+            </Link> */}
           </motion.div>
 
           {/* Mobile menu button */}
@@ -189,13 +189,13 @@ const Header = () => {
                   <span>Login</span>
                 </Button>
               </Link>
-              <Link href="/membership-application" passHref>
+              {/* <Link href="/membership-application" passHref>
                 <Button 
                   className="w-full justify-center bg-blue-600 hover:bg-blue-700 text-white py-3"
                 >
                   Join us
                 </Button>
-              </Link>
+              </Link> */}
             </motion.div>
           </div>
         </motion.div>

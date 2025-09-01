@@ -20,16 +20,7 @@ const MultiTabSection = () => {
   return (
     <section className="py-16 bg-slate-50 dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
-            FOUNDERS BOARD & BOD
-          </h2>
-          <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Connect with our community of professional trainers and stay updated with the latest events and notices.
-          </p>
-        </div>
-
+      
         {/* Tabs Navigation */}
         <div className="flex justify-center mb-12">
           <div className="flex flex-wrap justify-center gap-2 md:gap-4 bg-slate-100 dark:bg-slate-800 p-2 rounded-lg">
