@@ -75,7 +75,13 @@ const CoursesSection = () => {
     <section className="py-16 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4 uppercase">
+             Courses & Certificate Programs
+          </h2>
+          
+        </div>
+        {/* <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
               Courses & Certificate Programs
@@ -87,7 +93,7 @@ const CoursesSection = () => {
             WATCH MORE
             <Play size={18} className="group-hover:translate-x-1 transition-transform" />
           </Button>
-        </div>
+        </div> */}
 
         {/* Courses Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -156,7 +162,7 @@ const CoursesSection = () => {
         </div>
 
         {/* Mobile View More Button (hidden on larger screens) */}
-        <div className="text-center mt-8 md:hidden">
+        <div className="text-center mt-8">
           <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 font-semibold flex items-center gap-2 mx-auto group">
             WATCH MORE
             <Play size={18} className="group-hover:translate-x-1 transition-transform" />
