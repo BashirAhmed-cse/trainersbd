@@ -63,7 +63,7 @@ const Header = () => {
           >
             <Link href="/" passHref>
               <Image
-                src={theme === "dark" ? "/logo.png" : "/logo.png"}
+                src={theme === "dark" ? "/logo_dark.png" : "/logo.png"}
                 alt="Logo"
                 width={isScrolled ? 120 : 150}
                 height={isScrolled ? 40 : 50}
