@@ -85,7 +85,7 @@ const MembersTrainersSection = () => {
           src={member.image || '/placeholder-member.jpg'}
           alt={member.name}
           fill
-          className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+          className="object-cover  object-top group-hover:scale-105 transition-transform duration-500"
         />
       </div>
 

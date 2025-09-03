@@ -243,6 +243,18 @@ const LoginPage = () => {
             </Link>
           </motion.div>
           
+          <div className="flex justify-center gap-5 mt-5">
+            <Link href="/admin-dashboard" passHref>
+              <Button className="w-full justify-center bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-3 mb-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+                Admin
+              </Button>
+            </Link>
+            {/* <Link href="/user" passHref>
+              <Button className="w-full justify-center bg-purple-500 hover:bg-purple-700 text-white font-semibold py-3 mb-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+                Member
+              </Button>
+            </Link> */}
+          </div>
           
         </motion.div>
       </motion.div>
