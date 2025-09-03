@@ -169,7 +169,7 @@ const ResourceLibrary = () => {
           </div>
 
           {/* Category Filters */}
-          <div className="flex flex-wrap gap-2 mb-6">
+          {/* <div className="flex flex-wrap gap-2 mb-6">
             {categories.map((category) => (
               <button
                 key={category.id}
@@ -183,10 +183,10 @@ const ResourceLibrary = () => {
                 {category.label}
               </button>
             ))}
-          </div>
+          </div> */}
 
           {/* Resource Type Filters */}
-          <div className="flex flex-wrap gap-4">
+          {/* <div className="flex flex-wrap gap-4">
             {resourceTypes.map((type) => (
               <div
                 key={type.id}
@@ -196,7 +196,7 @@ const ResourceLibrary = () => {
                 <span className="text-sm text-slate-700 dark:text-slate-300">{type.label}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Resources Grid */}
