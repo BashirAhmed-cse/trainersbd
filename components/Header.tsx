@@ -65,8 +65,8 @@ const Header = () => {
               <Image
                 src={theme === "dark" ? "/logo_dark.png" : "/logo.png"}
                 alt="Logo"
-                width={isScrolled ? 120 : 150}
-                height={isScrolled ? 40 : 50}
+                width={isScrolled ? 150 : 170}
+                height={isScrolled ? 50 : 70}
                 className={`transition-all duration-300 ${isScrolled ? 'h-8' : 'h-10'}`}
                 priority
               />
