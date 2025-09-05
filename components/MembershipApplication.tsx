@@ -113,7 +113,7 @@ const MembershipApplication = () => {
             theme === 'dark' ? 'text-white' : 'text-slate-900'
           }`}>
             <span className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
-              Professional Profile Setup
+              Build Your Professional Profile
             </span>
           </h1>
           <p className={`text-xl max-w-2xl mx-auto ${

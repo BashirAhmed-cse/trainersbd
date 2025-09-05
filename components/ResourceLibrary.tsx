@@ -30,6 +30,7 @@ const ResourceLibrary = () => {
       type: 'video',
       category: 'yoga',
       duration: '2h 15m',
+      downloads: 120,
       format: 'MP4',
       size: '1.8GB',
       image: '/placeholder-resource2.jpg'
@@ -51,13 +52,14 @@ const ResourceLibrary = () => {
       type: 'video',
       category: 'fitness',
       duration: '1h 45m',
+      downloads: 10,
       format: 'MP4',
       size: '1.2GB',
       image: '/placeholder-resource4.jpg'
     },
     {
       id: 5,
-      title: 'Meditation for Beginners',
+      title: 'Meditation for Beginners...',
       type: 'ebook',
       category: 'wellness',
       downloads: 1100,
@@ -82,6 +84,7 @@ const ResourceLibrary = () => {
       type: 'video',
       category: 'fitness',
       duration: '2h 30m',
+      downloads: 1100,
       format: 'MP4',
       size: '2.1GB',
       image: '/placeholder-resource7.jpg'
@@ -144,9 +147,11 @@ const ResourceLibrary = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
-            RESOURCE LIBRARY
+            Find the Premium Resources
           </h2>
-         
+         <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+           Explore Expert Guides, Tools and Learning Materials to Enhance Your Training Skills
+          </p>
         </div>
 
         {/* Search and Filter */}

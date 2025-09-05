@@ -45,10 +45,10 @@ const MembersTrainersSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white mb-4">
-            OUR COMMUNITY
+            Our Professional Training Community
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Connect with our members and find the perfect trainer for your needs
+            Connect, Collaborate & Find the Right Trainer for You
           </p>
         </div>
 
