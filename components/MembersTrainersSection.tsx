@@ -21,8 +21,8 @@ const MembersTrainersSection = () => {
 
   const trainers = [
     { id: 1, name: 'Laila Naznin', specialty: 'The Academy to Innovate HR', rating: 4.9, image: '/BoardMembers/laila-Naznin.jpg' },
-    { id: 2, name: 'Mohammad Morad Hossain', specialty: 'Human Edge', rating: 4.8, image: '/BoardMembers/MOhammad-Morad-Hossain.jpg' },
-    { id: 3, name: 'Zia Uddin Ahmad', specialty: 'Marketing Pro', rating: 4.7, image: '/BoardMembers/Zia-Uddin.jpg' },
+    { id: 2, name: 'Saydujjaman', specialty: 'Human Edge', rating: 4.8, image: "/Members/Saydujjaman.jpg" },
+    { id: 3, name: 'Rubaiyat Jahan Lubna', specialty: 'Marketing Pro', rating: 4.7, image: "/Members/RubaiyatJahanLubna.png" },
   ];
 
   const filteredMembers = members.filter(m =>
