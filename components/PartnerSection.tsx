@@ -98,7 +98,7 @@ const PartnerSection = () => {
                 Featured Partners
               </h3>
               
-              <div className="space-y-4">
+              <div className="space-y-4 max-h-72 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-transparent">
                 {partners.map((partner) => (
                   <div key={partner.id} className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-700 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-600 transition-colors">
                     <div className="flex-1">
@@ -116,13 +116,7 @@ const PartnerSection = () => {
                     </div>
                     
                     <div className="flex items-center gap-4">
-                      <div className="text-center">
-                        <div className="flex items-center gap-1 text-sm text-slate-600 dark:text-slate-300">
-                          <Star size={14} className="text-yellow-400 fill-current" />
-                          {partner.rating}
-                        </div>
-                        <div className="text-xs text-slate-500 dark:text-slate-400">Rating</div>
-                      </div>
+                      
                       
                       <div className="text-center">
                         <div className="text-sm text-slate-600 dark:text-slate-300">{partner.collaborations}</div>

@@ -69,7 +69,7 @@ const ResourceLibrary = () => {
     {
       id: 6,
       title: 'Sports Nutrition Advanced Course',
-      type: 'course',
+      type: 'ebook',
       category: 'nutrition',
       modules: 8,
       duration: '6 weeks',
