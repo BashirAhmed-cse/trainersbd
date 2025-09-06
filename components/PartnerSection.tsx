@@ -98,7 +98,7 @@ const PartnerSection = () => {
                 Featured Partners
               </h3>
               
-              <div className="space-y-4 max-h-72 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-transparent">
+              {/* <div className="space-y-4 max-h-72 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-transparent">
                 {partners.map((partner) => (
                   <div key={partner.id} className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-700 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-600 transition-colors">
                     <div className="flex-1">
@@ -125,7 +125,7 @@ const PartnerSection = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
               
               <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-700">
                 <Button variant="ghost" className="w-full text-blue-600 hover:text-blue-700 hover:bg-blue-50 dark:hover:bg-slate-700 flex items-center gap-2">
