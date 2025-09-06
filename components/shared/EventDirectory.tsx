@@ -214,7 +214,7 @@ const EventDirectory = () => {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-6">
           {(showAllPast ? pastEvents : pastEvents.slice(0, 2)).map((event, eventIndex) => (
             <Card
               key={event.id}
@@ -239,7 +239,7 @@ const EventDirectory = () => {
                       <img
                         src={img}
                         alt={`${event.title} image ${imageIndex + 1}`}
-                        className="w-full h-28 sm:h-32 md:h-36 object-cover transition-transform duration-200 hover:scale-105"
+                        className="w-full h-32 sm:h-36 md:h-42 object-cover transition-transform duration-200 hover:scale-105"
                         loading="lazy"
                       />
                     </div>
