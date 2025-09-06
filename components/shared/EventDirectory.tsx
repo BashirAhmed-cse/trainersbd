@@ -239,7 +239,7 @@ const EventDirectory = () => {
                       <img
                         src={img}
                         alt={`${event.title} image ${imageIndex + 1}`}
-                        className="w-full h-32 sm:h-36 md:h-42 object-cover transition-transform duration-200 hover:scale-105"
+                        className="w-full h-full  object-cover transition-transform duration-200 hover:scale-105"
                         loading="lazy"
                       />
                     </div>
