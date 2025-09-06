@@ -116,14 +116,14 @@ const Header = () => {
             </Link>
             
             {/* Join Us Button */}
-            {/* <Link href="/membership-application" passHref>
+            <Link href="/membership-application" passHref>
               <Button 
                 className="relative overflow-hidden group bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 rounded-lg shadow-sm hover:shadow-md transition-all"
               >
                 <span className="relative z-10">Join Us</span>
                 <span className="absolute inset-0 bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </Button>
-            </Link> */}
+            </Link>
           </motion.div>
 
           {/* Mobile menu button */}
